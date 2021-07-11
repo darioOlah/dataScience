@@ -17,3 +17,10 @@
         font-size: 14px;
     }
 }
+
+@media screen and (max-width:800px){
+    .box-midias{
+        padding: 0;
+        opacity: 1;
+    }
+}
