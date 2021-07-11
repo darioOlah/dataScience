@@ -1,0 +1,169 @@
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+    background: var(--preto);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header .logo{
+    height: 40px;
+    display: flex;
+    margin: 10px 10px 10px 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    padding: 8px;
+    margin-right: 20px;
+    opacity: .6;
+}
+
+header nav a:hover{
+    color: whitesmoke;
+    background-color: var(--vermelho);
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.midia-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%), url('/img/capa-lucifer.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.midia-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 50%;
+}
+
+.midia-principal .logo-serie{
+   height: 60px;
+   display: flex;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50) ;
+    border: none;
+    width: 210px;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: .4s, .1s;
+	transition-property: background, border-radius;
+    opacity: .8;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.botao:active{
+    background-color: var(--vermelho);
+    color: white;
+    border-radius: 10px;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container-2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.midia-principal .container{
+    width: 70%;
+}
+
+.box-midias{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    padding: 20px;
+    opacity: .6;
+}
+
+.box-midias:hover{
+    transition-property: transform;
+	transition-duration: 2s;
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.carrosel-midias{
+    margin: 10px;
+}
+
+.titulos {
+    padding: 20px 0px 8px 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+footer {
+	background-color: var(--preto);
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+	position: relative;
+
+}
+
+footer .copy{
+    color: whitesmoke;
+    opacity: .6;
+}
+
+.social_media {
+	display: inline-flex;
+	height: 20px;
+	margin: 10px;
+	border: none;
+	font-size: 30px;
+	cursor: pointer;
+    opacity: .4;
+}
+
+.social_media:hover{
+    transition-property: transform;
+	transition-duration: 1s;
+    transform: scale(2) ;
+    
+    opacity: 1;
+}
