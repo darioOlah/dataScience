@@ -21,20 +21,28 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
 }
 
-svg{
-    width: 80%;
+.logo{
+    justify-content: start;
     display: flex;
 }
 
+svg{
+    width: 40%;
+    display: flex;
+}
+
+nav{
+    margin-right: 10px;
+}
 header nav a{
     text-decoration: none;
     color: whitesmoke;
     font-size: 18px;
     padding: 8px;
-    margin-right: 20px;
+
     opacity: .6;
 }
 
