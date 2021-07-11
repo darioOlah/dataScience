@@ -21,13 +21,12 @@ header .container{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
 }
 
-header .logo{
-    height: 40px;
+svg{
+    width: 80%;
     display: flex;
-    margin: 10px 10px 10px 10px;
 }
 
 header nav a{
@@ -48,7 +47,7 @@ header nav a:hover{
 
 .midia-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%), url('/img/capa-lucifer.jpg');
+    background: url('https://www.themoviedb.org/t/p/original/zXcGhteIjRH2qjOpwYgLSpVri8P.jpg');
     height: 500px;
     background-size: cover;
     display: flex;
@@ -164,6 +163,5 @@ footer .copy{
     transition-property: transform;
 	transition-duration: 1s;
     transform: scale(2) ;
-    
     opacity: 1;
 }

@@ -1,9 +1,17 @@
 @media screen and (max-width:1415px){
+
     header .container{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: auto;
     }
 
+    svg{
+        width: 100%;
+        display: flex;
+        padding: 10px;
+    }
     .botao{
         margin-top: 5px;
         width: 210px;
@@ -15,10 +23,59 @@
 
     header nav a{
         font-size: 14px;
+        margin: 0;
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:860px){
+
+    .midia-principal{
+        font-size: 16px;
+        background: url('https://www.themoviedb.org/t/p/original/uszR0lAEbsakNCy3S03NNT2Axa3.jpg');
+        width: 100%;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .midia-principal .descricao{
+        width: 70%;
+    }
+
+    .box-midias{
+        padding: 0;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:650px){
+
+    .midia-principal{
+        font-size: 16px;
+        background: url('https://www.themoviedb.org/t/p/original/c89ecNYaWhFpsaWKrYl07W6CGzL.jpg');
+        width: 100%;
+        height: 480px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+    }
+
+    .midia-principal .logo-serie{
+        height: 40px;
+        display: flex;
+     }
+
+    .midia-principal .descricao{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .botao{
+        margin-bottom: 10px;
+    }
+
     .box-midias{
         padding: 0;
         opacity: 1;
