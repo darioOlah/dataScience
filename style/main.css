@@ -27,6 +27,7 @@ header .container{
 .logo{
     justify-content: start;
     display: flex;
+    margin-left: 10px;
 }
 
 svg{
